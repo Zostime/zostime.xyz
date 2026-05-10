@@ -1,0 +1,32 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    opacity: 0;
+    margin: 50px 20px 0;
+    padding: 12vh 0 50vh 0;
+    animation: rise 1.5s ease forwards;
+}
+
+@keyframes rise {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.title .divider {
+    background: #FFFFFF;
+    border: none;
+    opacity: 0.8;
+    margin: 20px auto;
+    height: 1px;
+    width: 80%;
+}

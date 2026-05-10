@@ -11,16 +11,3 @@ body {
     color: #FFFFFF;
     font-family: 'Microsoft YaHei', sans-serif;
 }
-
-.title {
-    text-align: center;
-    margin: 50px 20px 0;
-}
-
-.title .divider {
-    background: #FFFFFF;
-    border: none;
-    margin: 20px auto;
-    height: 1px;
-    width: 80%;
-}
