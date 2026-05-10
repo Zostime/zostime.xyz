@@ -1,0 +1,40 @@
+main {
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1200px) {
+    main {
+        width: 80%;
+    }
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 16px;
+    padding: 16px;
+    border: 1px solid #2A2A2A;
+    border-radius: 10px;
+    background: #242424;
+}
+
+.about-container h1 {
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.about-container #content {
+    min-height: calc(50vw * 1.414);
+}
+
+@media screen and (max-width: 1200px) {
+    .about-container #content {
+        min-height: calc(80vw * 1.414);
+    }
+}
+
+.about-container #content p {
+    margin: 16px 0;
+}
