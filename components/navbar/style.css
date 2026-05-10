@@ -1,0 +1,53 @@
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    height: 56px;
+
+    padding: 0 24px;
+
+    display: flex;
+    align-items: center;
+
+    border-bottom: 1px solid #2A2A2A;
+
+    background: #1F1F1FCC;
+    backdrop-filter: blur(12px);
+}
+
+#navbar {
+    height: 56px;
+}
+
+.navbar img {
+    display: block;
+    height: 50%;
+    margin: 0;
+}
+
+.navbar .right {
+    margin-left: auto;
+
+    display: flex;
+    align-items: center;
+
+    gap: 16px;
+}
+
+.navbar .right .links {
+    display: flex;
+    gap: 24px;
+}
+
+.navbar .right .links a {
+    text-decoration: none;
+    color: inherit;
+    transition:
+        opacity 0.2s ease;
+}
+
+.navbar .right .links a:hover {
+    opacity: 0.8;
+}

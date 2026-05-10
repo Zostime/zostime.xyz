@@ -7,11 +7,18 @@
     <title>Zostime</title>
 
     <link rel="stylesheet" href="/src/css/global.css">
-    <script src="/src/js/index.js"></script>
+
+    <link rel="stylesheet" href="/components/navbar/style.css">
+    <link rel="stylesheet" href="/components/footer/style.css">
+
+    <script defer src="/components/navbar/script.js"></script>
+    <script defer src="/components/footer/script.js"></script>
+
+    <script defer src="/src/js/index.js"></script>
 </head>
 <body>
     <header>
-        <nav id="navbar"></nav>
+        <nav class="navbar"></nav>
     </header>
 
     <main>
@@ -21,10 +28,6 @@
         </div>
     </main>
 
-    <footer>
-
-    </footer>
-
-    <script src="/src/js/components.js"></script>
+    <footer class="footer"></footer>
 </body>
 </html>
